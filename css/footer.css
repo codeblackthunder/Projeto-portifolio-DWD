@@ -1,0 +1,44 @@
+footer{
+	
+
+
+	/**
+	 *
+	 * utilizar na mediaquery para concertar a quebra do layout
+	 *
+	 */
+
+	 margin-top: 5rem;
+	width: 98vw;
+	margin-bottom: 3em;
+	padding: 1em;
+
+	display: flex;
+	
+	align-items:center;
+	justify-content: space-around;
+
+}
+
+
+.icon-media{
+display: flex;
+flex-direction: row;
+	font-size: 2rem;
+	color:black;
+}
+
+.copyright{
+	font-size: 1rem;
+	color: sienna;
+}
+
+@media screen and (min-width: 993px) {
+    footer{
+		margin-bottom: 5em;
+	}
+	.icon-media{
+	   display: inline-block;
+   }
+  
+}

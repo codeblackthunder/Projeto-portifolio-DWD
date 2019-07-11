@@ -1,0 +1,85 @@
+
+
+
+/*=============== fontes=============== */
+
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
+
+/*======================================*/
+#hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 2.0), rgba(0, 0, 0, 0.7)), url("img/header-img.png");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-title{
+   
+}
+
+.hero-text{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text>p {
+    justify-content: end;
+    font-size: 2.8rem;
+    padding-left: 6%;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    margin-left: 1em;
+}
+   
+  .btn-contato {
+   
+    color: white;
+    border: 4px solid sienna;
+    height: 55px;
+    width: 128px;
+    margin-top: 7em;
+    margin-right: 2em;
+    padding-left: 0.3em;
+    padding-right: 0.2em;
+    padding-top: 0.1em;
+    border-radius: 0.5em;
+    font-size: 2rem;
+    
+}
+.link-contato{
+   
+text-decoration: none;
+color: white;
+}
+
+a:hover{
+  
+    color: sienna;
+    
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero-text>p {
+    font-size: 5.5rem;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    margin-left: 1em;
+}
+  
+}
+@media screen and (min-width: 993px) {
+    .hero-text>p {
+    font-size: 5.5rem;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    margin-left: 1em;
+}
+  
+}

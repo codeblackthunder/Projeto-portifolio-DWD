@@ -1,0 +1,43 @@
+body,html{
+    background-color: wheat;
+    scroll-behavior: smooth;
+}
+
+
+section{
+    background-color: wheat;
+}
+
+h2{
+    text-align: center;
+    color: sienna;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 4rem;
+}
+
+p{
+    color: peru;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+	font-size: 1.5rem;
+}
+
+ion-icon{
+ color: sienna;
+}
+
+span{
+    color: peru;
+}
+
+input,textarea{
+    background-color: wheat;
+}
+
+.format{
+    font-size: 2em;
+    color: black;
+}
+
+
+
